@@ -5,10 +5,10 @@ const TableDemo = () => {
   const headers = ['id', 'name', 'email', 'role', 'status'];
   
   const data = [
-    { id: 1, name: 'John Doe', email: 'john@example.com', role: 'Developer', status: 'Active' },
-    { id: 2, name: 'Jane Smith', email: 'jane@example.com', role: 'Designer', status: 'Inactive' },
-    { id: 3, name: 'Bob Johnson', email: 'bob@example.com', role: 'Manager', status: 'Active' },
-    { id: 4, name: 'Alice Brown', email: 'alice@example.com', role: 'Tester', status: 'Active' },
+    { id: 1, name: 'Ayush', email: 'ayush@gmail.com', role: 'Developer', status: 'Active' },
+    { id: 2, name: 'Sachin', email: 'sachin@gmail.com', role: 'Developer', status: 'Inactive' },
+    { id: 3, name: 'Anmol', email: 'anmol@gmail.com', role: 'Designer', status: 'Active' },
+    { id: 4, name: 'Aryansh', email: 'aryansh@gmail.com', role: 'Tester', status: 'Active' },
   ];
 
   return (
