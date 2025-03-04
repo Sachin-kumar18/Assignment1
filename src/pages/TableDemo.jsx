@@ -1,15 +1,10 @@
-import Table from '../components/Table';
+import Table from '../components/core';
+import  data from '../data/data.json'
 
 const TableDemo = () => {
   
   const headers = ['id', 'name', 'email', 'role', 'status'];
-  
-  const data = [
-    { id: 1, name: 'Ayush', email: 'ayush@gmail.com', role: 'Developer', status: 'Active' },
-    { id: 2, name: 'Sachin', email: 'sachin@gmail.com', role: 'Developer', status: 'Inactive' },
-    { id: 3, name: 'Anmol', email: 'anmol@gmail.com', role: 'Designer', status: 'Active' },
-    { id: 4, name: 'Aryansh', email: 'aryansh@gmail.com', role: 'Tester', status: 'Active' },
-  ];
+    
 
   return (
     <div className="container mx-auto p-4">
