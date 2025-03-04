@@ -4,7 +4,7 @@ import TableHeader from './TableHeader';
 import TableRow from './TableRow';
 
 const Table = ({ headers, data }) => {
-  // Preparing context value
+  
   const tableContextValue = {
     headers
   };
